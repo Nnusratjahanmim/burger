@@ -1,0 +1,213 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*header start*/
+.img{
+  width:150px; 
+}
+.menu ul li a{
+	font-size: 18px;
+	padding: 5px 0 !important;
+      text-align: right;
+   }
+/*header end*/
+/*slider start*/
+.cid {
+    bottom: -20px;
+
+}
+.cid [data-bs-target] {
+    width:6px;
+    height: 6px;
+     margin-right: 0;
+}
+.s_content {
+    margin-bottom: 25px;
+   
+  }
+.s_content p{
+  font-size: 14px;
+  border: 1px dashed  #3d2514; 
+}
+.burger1{
+ margin: 0 0 -32px ; 
+  font-size:25px  ; 
+}
+.burger2{
+  font-size:25px; 
+}
+.week1{
+  margin: 0 0 -26px;   
+  font-size:20px; 
+}
+.week2{
+  font-size:20px; 
+}
+/*slider start*/
+/*reservation start*/
+.r-text{
+  margin:50px 0 ;
+}
+.r-text p{
+  font-size: 22px;
+}
+.r-text h2{
+  font-size: 25px;
+}
+.f_email{
+  font-size: 16px;
+  height: 0px;
+}
+.f-submit{
+  font-size: 16px;
+  height: 48px;
+}
+/*reservation end*/
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*header start*/
+.menu ul li a{
+	font-size: 18px;
+	padding: 5px 0 !important;
+ text-align: right;
+   }
+/*header end*/
+/*slider start*/
+.cid [data-bs-target] {
+    width:10px;
+    height: 10px;
+     margin-right: 2px;
+}
+.s_content {
+    margin-bottom:50px;
+      letter-spacing: 4px;
+  }
+.s_content p{
+  font-size: 16px;
+  border: 1px dashed  #3d2514; 
+}
+.burger1{
+ margin: 0 0 -63px ; 
+  font-size:50px  ; 
+}
+.burger2{
+  font-size:50px; 
+}
+.week1{
+  margin: 0 0 -45px;   
+  font-size:35px; 
+}
+.week2{
+  font-size:35px; 
+}
+
+/*slider start*/
+/*reservation start*/
+.r-text{
+  margin:80px 0 ;
+}
+.r-text p{
+  font-size: 25px;
+}
+.r-text h2{
+  font-size: 38px;
+}
+.f_email{
+  height: 0px;
+}
+.f-submit{
+  font-size: 16px;
+  height: 48px;
+}
+/*reservation end*/
+ }
+
+ /*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*header start*/
+.menu ul li a{
+	padding: 5px 0 !important;
+      text-align: right;
+   }
+/*header end*/
+/*slider start*/
+
+.cid {
+    bottom: -15px;
+}
+.cid [data-bs-target] {
+    width:9px;
+    height: 9px;
+}
+.cid [data-bs-target] {
+    width:10px;
+    height: 10px;
+}
+.s_content{
+   margin-bottom: 55px;
+}
+.s_content p{
+  font-size: 20px;
+  border: 1px dashed  #3d2514;  
+}
+.burger1{
+ margin: 0 0 -100px; 
+  font-size:80px; 
+}
+.burger2{
+  font-size:80px; 
+}
+.week1{
+  margin: 0 0 -76px;   
+  font-size:60px; 
+}
+.week2{
+  font-size:60px; 
+}
+/*slider end*/
+/*reservation start*/
+.r-bc{
+  background-image: url(../img/bc1.jpg);
+  min-width:768px; 
+  min-height:500px;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.r
+/*reservation end*/
+
+
+ }
+
+ /*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+  /*silder start*/
+  .cid {
+    bottom:-20px ;
+}
+  .s_content{ 
+  margin-bottom: 150px;
+  letter-spacing: 4px;
+}
+.s_content p{
+  font-size: 20px; 
+}
+  /*silder end*/
+
+
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px){ 
+
+
+ }
+/* extra Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1400px) { 
+
+
+ }
+
+
+

@@ -1,0 +1,307 @@
+/*common start*/
+body{
+   font-family: 'Bebas Neue', cursive;
+   font-size:16px; 
+   font-weight: 400;
+   color: #3d2514;
+}
+
+
+/*common end*/
+/*header start*/
+header{  
+ padding:20px 0 ;
+  background-image: url(../img/bpc.jpg);
+  min-height: 40px;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.logo{}
+.menu{}
+.menu ul li a{
+   font-size:20px; 
+   font-weight:500;
+   color:#3d2514 !important;
+   padding:0 20px !important;
+   text-transform: uppercase;
+   }
+.menu ul li a:hover{
+   color:white !important;
+}
+.menu ul li:last-child a{
+   padding-right:0 !important;
+}
+/*header end*/
+/*silder start*/
+.slider{
+
+
+}
+
+.cid {
+    bottom:-15px ;
+}
+
+.cid [data-bs-target] {
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color:#3d2514; 
+}
+
+.cid .active {
+    opacity: 1;
+}
+
+.s_content{ 
+  margin-bottom: 200px;
+  letter-spacing: 6px;
+  font-family: 'Alfa Slab One', cursive;
+
+}
+.s_content p{
+  margin-top: 170px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 24px;
+  border: 2px dashed  #3d2514;
+  text-transform: uppercase;
+ text-align: center;
+ letter-spacing:0;
+  
+}
+.burger1{
+ margin: 0 0 -138px; 
+  color:white ;
+  font-size:110px; 
+   font-weight: 700;
+
+}
+.burger2{
+  color:#3d2514 ;
+  font-size:110px; 
+  font-weight: 700;
+}
+.week1{
+  margin: 0 0 -90px;   
+  color:white ;
+  font-size:70px; 
+   font-weight: 700;
+}
+.week2{
+
+  color:#3d2514 ;
+  font-size:70px; 
+   font-weight: 700;
+}
+/*silder end*/
+/*story start*/
+/*single 1 start*/
+.single-item{
+	position: relative;
+}
+.single-item::before{
+  content: '';
+   position: absolute;
+   background-color: black;
+   border-radius: 10px;
+   width:100%;
+   height: 0%;
+   left: 0;
+   bottom: 0;
+   opacity: 0;
+   transition: 0.4s all ease-in-out;
+
+}
+.single-item:hover::before{
+    height:100%;
+    opacity:0.4;
+}
+
+.single-item h1{
+	  position: absolute;
+	  opacity: 0;
+	  color: white;
+      bottom:0px;
+      left:20px
+}
+.single-item :hover h1{
+	bottom:200px;
+	opacity: 1;
+	transition: 0.4s all ease-in-out;
+}
+.single-item h2{
+	   position: absolute;
+	    opacity: 0;
+	   color:white;
+       bottom:240px;
+       left:0px; 
+}
+.single-item :hover h2{
+	left:20px;
+	opacity: 1;
+	transition: 0.4s all ease-in-out;
+}
+
+.single-item:hover{
+	transform:translateY(15px);
+}
+/*single 1 end*/
+/*single 2 start*/
+.single-item2{
+	position: relative;
+}
+.single-item2::before{
+  content: '';
+   position: absolute;
+   background-color: black;
+   border-radius: 10px;
+   width:100%;
+   height: 0%;
+   left: 0;
+   bottom: 0;
+   opacity: 0;
+   transition: 0.4s all ease-in-out;
+
+}
+.single-item2:hover::before{
+    height:100%;
+    opacity:0.4;
+}
+.single-item2 h1{
+	opacity: 0;
+		font-size: 32px !important;
+	  position: absolute;
+	  color: white;
+      bottom:25px;
+      left:20px;
+      line-height:30px; 
+}
+.single-item2 :hover h1{
+	bottom:10px;
+	opacity: 1;
+	transition: 0.4s all ease-in-out;
+}
+.single-item2 h2{
+	opacity: 0;
+	   position: absolute;
+	   color:white;
+       top:20px;
+       left:0px;
+
+}
+.single-item2 :hover h2{
+	 left:20px;
+	opacity: 1;
+	transition: 0.4s all ease-in-out;
+}
+.single-item2:hover{
+	transform:translateY(15px);
+}
+/*single 2 end*/
+/*single 3 start*/
+.single-item3{
+
+	position: relative;
+}
+.single-item3::before{
+  content: '';
+   position: absolute;
+   background-color: black;
+   border-radius: 10px;
+   width:100%;
+   height: 0%;
+   left: 0;
+   bottom: 0;
+   opacity: 0;
+   transition: 0.4s all ease-in-out;
+
+}
+.single-item3:hover::before{
+    height:100%;
+    opacity:0.4;
+}
+.single-item3 h1{
+	  opacity: 0;
+      font-size: 32px !important;
+	  position: absolute;
+	  color: white;
+      bottom:0px;
+      left:20px
+}
+.single-item3 :hover h1{
+	bottom:35px;
+	opacity: 1;
+	transition: 0.4s all ease-in-out;
+}
+.single-item3 h2{
+	    opacity: 0;
+	   position: absolute;
+	   color:white;
+       top:0px;
+       left:20px; 
+}
+.single-item3 :hover h2{
+	 top:20px;
+	opacity: 1;
+	transition: 0.4s all ease-in-out;
+}
+.single-item3:hover{
+	transform:translateY(15px);
+}
+/*single 2 end*/
+/*story end*/
+/*reservation start*/
+.r-bc{
+	background-image: url(../img/bc1.jpg);
+  min-height:500px;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+.r-text{
+	margin:100px 0 ;
+}
+.r-text p{
+	font-size: 30px;
+	letter-spacing: 4px;
+	margin-bottom: 0;
+}
+.r-text h2{
+	 font-family: 'Alfa Slab One', cursive;
+	font-size: 50px;
+	text-transform: uppercase;
+}
+.r-f{
+	margin-bottom:20px;
+
+}
+.f_email{
+  width: 100%;
+  height: 60px;
+  font-family:'Bebas Neue', cursive;
+   color: #3d2514 !important;
+}
+.f_email:focus {
+  outline: 0;
+     box-shadow :none;
+}
+.f-submit{
+	font-size: 20px;
+  width:100%;
+  height: 60px;
+   color:#3d2514;
+   font-family:"Alfa Slab One",sans-serif;  
+   background-color:#ffc045;
+   letter-spacing: 1px;
+}
+.f-submit:focus {
+  outline: 0;
+     box-shadow :none;
+     }
+.f-submit:hover{
+    background-color:#bf2222; 
+   color:white;
+
+}
+/*reservation end*/
+
